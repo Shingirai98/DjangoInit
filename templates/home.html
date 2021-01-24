@@ -1,0 +1,382 @@
+{% extends 'base.html'%}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="de-DE" prefix="og: http://ogp.me/ns#">
+    <meta charset="UTF-8">
+    <title>GATE Group</title>
+    <meta name="description" content="Future Living Today">
+    <style>
+      .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: #929090;}
+      .dropdown:hover .dropdown-content {display: block;}
+      .dropdown:hover .dropbtn {background-color: #3e8e41;}
+      </style>
+  
+    <link rel="author" href="https://lautenschlager.de" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/gate_icon.jpeg">
+    <link rel="stylesheet" type="text/css" href="css/normalize.min.css" media="all" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/flexboxgrid.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/theme.css" media="all" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+  
+    <header class="fade-in">
+      
+      
+        <div class="navigation-bar flex center-xs">
+
+            <img src="img/noback.svg" class="logo" style="height: 10%; width:10%">
+            <div class="dropdown" style="float:right;">
+                <button class="btn"><i class="fa fa-bars"></i></button>
+              <div class="dropdown-content">
+                
+                                <a href="#about-us">About us</a>
+                                <a href="#services">Services</a>
+                                <a href="#portfolio">Portfolio</a>
+                                <a href="#benefits">Benefits</a>
+                                <a href="#contact">Contact</a>
+                            
+              </div>
+            </div>
+            
+        </div>
+        
+        <div class="hero flex middle-xs" style=" height: 100%; background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url('img/gears.jpeg');">
+          
+    <div class="hero-text ">
+        
+    </div>
+</div>
+</header>
+<div class="wrapper">
+    <main>
+        <section class="intro" id="about-us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md">
+                        <h2 class="section-title">About</h2>
+                    </div>
+                </div>
+                <div class="row margin-bottom ">
+                    <div class="col-md" style="align-items: center;">
+                        <p class="highlight">My passion for creating meaningful change in the world is what drives me to #makeithappen.<br> Working tirelessly in order to bring you a better tomorrow </p>
+                        <p class="author">- Keith Maburutse</p>
+                    </div>
+                    
+                </div>
+                <div class="row team center-xs">
+                    <div class="col-md">
+                        <div class="hover-outer-box1">
+                            <img src="img/KeithCEO.jpg" style="margin-left: 50%; margin-right: 50%; height:80%; width:35%;">
+                            <div class="hover-inner-box1">
+                                <div class="hover-content1">
+
+                                    <h3>Keith Maburutse</h3>
+                                    <p>Micro Computer Technology Engineering</p>
+                                    <a href="https://www.facebook.com/gategroupsa" target="blank" rel="noopener"><img src="img/facebook-icon.svg" class="team-icon"></a> <a href="https://www.linkedin.com/in/keith-m-004a02124/" target="blank" rel="noopener"><img src="img/in.png" class="team-icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                          <br><br><br><br>
+                        <p class="team-name">Keith Maburutse<br/><span class="position">CEO</span></p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <hr/>
+        <section class="services" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 center-xs">
+                        <h2 class="section-title">Services</h2>
+                    </div>
+                </div>
+                <div class="row icon-row">
+                    <div class="col-xs center-xs">
+                        <img src="img/secure.png" class="icon"><br/>
+                        Security Systems
+                    </div>
+                    <div class="col-xs center-xs">
+                        <img src="img/cam.png" class="icon"><br/>
+                        CCTV
+                    </div>
+                    <div class="col-xs center-xs">
+                        <img src="img/cab.jpg" class="icon"><br/>
+                        Networking
+                    </div>
+                </div>
+                 <div class="row icon-row">
+                    <div class="col-xs center-xs">
+                        <img src="img/audio1.png" class="icon"><br/>
+                        Audio Visual
+                    </div>
+                    <div class="col-xs center-xs">
+                        <img src="img/rack.png" class="icon"><br/>
+                        Server Installation
+                    </div>
+                    <div class="col-xs center-xs">
+                        <img src="img/inter.svg" class="icon"><br/>
+                        Integration
+                    </div>
+                </div>
+                <div class="row margin-bottom ">
+                    <div class="col-md">
+                        <p class="highlight">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                        <p class="author">- John Doe</p>
+                    </div>
+                    <div class="col-md">
+                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                    <div class="col-md">
+                        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="row center-xs">
+                    <div class="col-md">
+                        <h2 class="section-title">Portfolio</h2>
+                        <p>Future Living Today</p>
+                    </div>
+                </div>
+            </div>
+            <div class="padding-small">
+                <div class="row margin-bottom-small">
+                    <div class="col-md-4">
+                        <div class="hover-outer-box">
+                            <img src="img/project-1.jpg">
+                            <div class="hover-inner-box">
+                                <div class="hover-content">
+                                    <h3>St. Johns</h3>
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+                                    <a href=""><button class="light">Call to action</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="hover-outer-box">
+                            <img src="img/project-2.jpg">
+                            <div class="hover-inner-box">
+                                <div class="hover-content">
+                                    <h3>Side Project1</h3>
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+                                    <a href=""><button class="light">Call to action</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="hover-outer-box">
+                            <img src="img/project-3.jpg">
+                            <div class="hover-inner-box">
+                                <div class="hover-content">
+                                    <h3>Side Project2</h3>
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+                                    <a href=""><button class="light">Call to action</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin-bottom-small">
+                    <div class="col-md-4">
+                        <div class="hover-outer-box">
+                            <img src="img/project-4.jpg">
+                            <div class="hover-inner-box">
+                                <div class="hover-content">
+                                    <h3>Sonos Project</h3>
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+                                    <a href=""><button class="light">Call to action</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="hover-outer-box">
+                            <img src="img/project-5.jpg">
+                            <div class="hover-inner-box">
+                                <div class="hover-content">
+                                    <h3>Side Project3</h3>
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+                                    <a href=""><button class="light">Call to action</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="hover-outer-box">
+                            <img src="img/project-6.jpg">
+                            <div class="hover-inner-box">
+                                <div class="hover-content">
+                                    <h3>Side Project4</h3>
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+                                    <a href=""><button class="light">Call to action</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="blurbs" id="benefits">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md center-xs">
+                            <h2 class="section-title">Benefits</h2>
+                        </div>
+                    </div>
+                    <div class="row margin-bottom-small center-xs">
+                        <div class="col-md">
+                            <img src="img/quality.png" class="icon ">
+                            <h3>Quality Assurance</h3>
+                            <p>Lorem ipsum dolor sit amet, c-r adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas volutpat, diam enim. </p>
+                        </div>
+                        <div class="col-md">
+                            <img src="img/clean.png" class="icon">
+                            <h3>Minimalistic and clean installation solutions</h3>
+                            <p>Lorem ipsum dolor sit amet, c-r adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas volutpat, diam enim. </p>
+                        </div>
+                        <div class="col-md">
+                            <img src="img/consult.png" class="icon">
+                            <h3>Consulting and Empathy</h3>
+                            <p>Lorem ipsum dolor sit amet, c-r adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas volutpat, diam enim. </p>
+                        </div>
+                    </div>
+                    <div class="row center-xs">
+                        <div class="col-md">
+                            <img src="img/comm.png" class="icon">
+                            <h3>Commission and Commitment</h3>
+                            <p>Lorem ipsum dolor sit amet, c-r adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas volutpat, diam enim. </p>
+                        </div>
+                        <div class="col-md">
+                            <img src="img/support.jpg" class="icon">
+                            <h3>Full-Time Support</h3>
+                            <p>Lorem ipsum dolor sit amet, c-r adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas volutpat, diam enim. </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="contact" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md center-xs">
+                            <h2 class="section-title">Call to Action</h2>
+                        </div>
+                    </div>
+                    <div class="row margin-bottom-small center-xs">
+                        <div class="col-md">Call Us<br/>+27 (83) 396-0781</div>
+                        <div class="col-md">Call Us<br/>+27 (81) 400-4431</div>
+                        <div class="col-md">Email<br/>info@gategroup.co.za</div>
+                    </div>
+                    <form action="">
+                        <div class="row margin-bottom-small center-xs">
+
+                            <div class="col-md padding-small">
+                                <div class="row">
+                                    <div class="col-md">
+                                        <input placeholder="Enter Your Name" type="text" name="" value="" class="margin-bottom-small">
+                                        <input placeholder="Enter Your Email" type="email" name=""  value="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md padding-small">
+                                <textarea placeholder="Your Message" name="" rows="8" class="margin-bottom-small"></textarea>
+                                <input type="submit" value="Submit">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <div class="container" >
+            <div class="row">
+                <div class="col-md center-xs">
+                    <img src="img/noback.svg" class="margin-bottom" style="max-width: 150px; opacity: 0.8;">
+                </div>
+            </div>
+            <div class="row margin-bottom-small">
+                <div class="col-md-8">
+                    <h3>About us</h3>
+                    <p>G.A.Te is a premiere residential and Commercial smart solution company based in Cape Town South Africa.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about-us">About us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#why-us">Why us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md ">
+                    <p>Follow us on <a href="https://www.instagram.com/gategroupsa/" target="blank" rel="noopener"><img src="img/instagram-icon.png" style="height: 18px; width: 18px; background-blend-mode: color;">
+                        <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+                    </svg></a></p>
+                  
+                    
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <div class="row secondary-footer">
+        <div class="col-md">
+         <p>GATEGroup ♥  © 2020.</p>                
+     </div>
+     <div class="col-md end-md">
+         <p><a href="#">Imprint</a> | <a href="#">Data Protection</a></p>                
+     </div>
+ </div>
+ <script src="https://cdn.polyfill.io/v2/polyfill.min.js?callback=polyfillsAreLoaded" defer></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="js/script.js" defer></script>
+</body>
+</html>
+{% endblock content %}
